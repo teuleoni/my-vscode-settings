@@ -1,0 +1,184 @@
+// Coloque as suas associações de teclas neste arquivo para substituir os padrões
+[
+  {
+    "key": "alt+n",
+    "command": "fileutils.newFileAtRoot"
+  },
+  {
+    "key": "alt+s",
+    "command": "cursorDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "down",
+    "command": "-cursorDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+w",
+    "command": "cursorUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "up",
+    "command": "-cursorUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+x",
+    "command": "toggleSearchEditorWholeWord",
+    "when": "inSearchEditor && searchInputBoxFocus"
+  },
+  {
+    "key": "alt+w",
+    "command": "-toggleSearchEditorWholeWord",
+    "when": "inSearchEditor && searchInputBoxFocus"
+  },
+  {
+    "key": "alt+x",
+    "command": "workbench.action.terminal.toggleFindWholeWord",
+    "when": "terminalFindVisible && terminalHasBeenCreated || terminalFindVisible && terminalProcessSupported"
+  },
+  {
+    "key": "alt+w",
+    "command": "-workbench.action.terminal.toggleFindWholeWord",
+    "when": "terminalFindVisible && terminalHasBeenCreated || terminalFindVisible && terminalProcessSupported"
+  },
+  {
+    "key": "alt+x",
+    "command": "toggleFindWholeWord",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+w",
+    "command": "-toggleFindWholeWord",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+x",
+    "command": "toggleSearchWholeWord",
+    "when": "searchViewletFocus"
+  },
+  {
+    "key": "alt+w",
+    "command": "-toggleSearchWholeWord",
+    "when": "searchViewletFocus"
+  },
+  {
+    "key": "alt+d",
+    "command": "cursorRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "right",
+    "command": "-cursorRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+a",
+    "command": "cursorLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "left",
+    "command": "-cursorLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+q",
+    "command": "cursorWordLeft",
+    "when": "textInputFocus && !accessibilityModeEnabled"
+  },
+  {
+    "key": "ctrl+left",
+    "command": "-cursorWordLeft",
+    "when": "textInputFocus && !accessibilityModeEnabled"
+  },
+  {
+    "key": "alt+e",
+    "command": "cursorWordEndRight",
+    "when": "textInputFocus && !accessibilityModeEnabled"
+  },
+  {
+    "key": "ctrl+right",
+    "command": "-cursorWordEndRight",
+    "when": "textInputFocus && !accessibilityModeEnabled"
+  },
+  {
+    "key": "alt+s",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "-selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+  },
+  {
+    "key": "alt+w",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "-selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+  },
+  {
+    "key": "alt+w",
+    "command": "list.focusUp",
+    "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+  },
+  {
+    "key": "up",
+    "command": "-list.focusUp",
+    "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+  },
+  {
+    "key": "alt+s",
+    "command": "list.focusDown",
+    "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+  },
+  {
+    "key": "down",
+    "command": "-list.focusDown",
+    "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+  },
+
+  {
+    "key": "alt+w",
+    "command": "workbench.action.quickOpenNavigatePrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "alt+s",
+    "command": "workbench.action.quickOpenNavigateNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "alt+shift+a",
+    "command": "cursorWordLeftSelect"
+  },
+  {
+    "key": "alt+shift+d",
+    "command": "cursorWordRightSelect"
+  },
+  {
+    "key": "alt+shift+w",
+    "command": "cursorUpSelect"
+  },
+  {
+    "key": "alt+shift+s",
+    "command": "cursorDownSelect"
+  },
+  {
+    "key": "alt+p",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+k",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus"
+  }
+]
