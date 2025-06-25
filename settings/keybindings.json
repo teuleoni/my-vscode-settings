@@ -146,22 +146,57 @@
   },
 
   {
-    "key": "alt+w",
-    "command": "workbench.action.quickOpenNavigatePrevious",
-    "when": "inQuickOpen"
-  },
-  {
-    "key": "alt+s",
-    "command": "workbench.action.quickOpenNavigateNext",
-    "when": "inQuickOpen"
-  },
-  {
     "key": "alt+shift+a",
     "command": "cursorWordLeftSelect"
   },
   {
     "key": "alt+shift+d",
     "command": "cursorWordRightSelect"
+  },
+
+  {
+    "key": "alt+p",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+k",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+shift+p",
+    "command": "editor.action.copyLinesUpAction"
+  },
+  {
+    "key": "alt+shift+k",
+    "command": "editor.action.copyLinesDownAction"
+  },
+  {
+    "key": "shift+alt+d",
+    "command": "cursorRightSelect"
+  },
+  {
+    "key": "shift+alt+a",
+    "command": "cursorLeftSelect"
+  },
+  {
+    "key": "shift+alt+e",
+    "command": "cursorWordRightSelect"
+  },
+  {
+    "key": "shift+alt+q",
+    "command": "cursorWordLeftSelect"
+  },
+  {
+    "key": "shift+alt+s",
+    "command": "list.expandSelectionDown",
+    "when": "explorerViewletVisible && filesExplorerFocus && listFocus"
+  },
+  {
+    "key": "shift+alt+w",
+    "command": "list.expandSelectionUp",
+    "when": "explorerViewletVisible && filesExplorerFocus && listFocus"
   },
   {
     "key": "alt+shift+w",
@@ -172,13 +207,13 @@
     "command": "cursorDownSelect"
   },
   {
-    "key": "alt+p",
-    "command": "editor.action.moveLinesUpAction",
-    "when": "editorTextFocus"
+    "key": "shift+alt+s",
+    "command": "list.expandSelectionDown",
+    "when": "explorerViewletVisible && filesExplorerFocus && listFocus"
   },
   {
-    "key": "alt+k",
-    "command": "editor.action.moveLinesDownAction",
-    "when": "editorTextFocus"
+    "key": "shift+alt+w",
+    "command": "list.expandSelectionUp",
+    "when": "explorerViewletVisible && filesExplorerFocus && listFocus"
   }
 ]
