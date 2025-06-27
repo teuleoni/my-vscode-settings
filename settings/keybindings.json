@@ -215,5 +215,39 @@
     "key": "shift+alt+w",
     "command": "list.expandSelectionUp",
     "when": "explorerViewletVisible && filesExplorerFocus && listFocus"
+  },
+  {
+    "key": "alt+w",
+    "command": "workbench.action.quickOpenNavigatePrevious",
+    "when": "inQuickOpen || inQuickNavigate"
+  },
+  {
+    "key": "alt+s",
+    "command": "workbench.action.quickOpenNavigateNext",
+    "when": "inQuickOpen || inQuickNavigate"
+  },
+  {
+    "key": "alt+a",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": "\u001b[D" },
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "alt+d",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": "\u001b[C" },
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "alt+w",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": "\u001b[A" },
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "alt+s",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": "\u001b[B" },
+    "when": "terminalFocus && terminalProcessSupported"
   }
 ]
